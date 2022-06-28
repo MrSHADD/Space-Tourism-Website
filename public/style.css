@@ -1,0 +1,200 @@
+body{
+    background-image: url("./images/home/background-home-desktop.jpg");
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    color: white;
+}
+
+.header{
+    width: 1385px;
+    height: 96px;
+    margin-top: 40px;
+    margin-left: 55px;
+    /* background-color: red; */
+}
+
+.navbar{
+    display: flex;
+}
+
+.img-logo{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.span-line{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    margin-left: 103px;
+    margin-top: 48px;
+    z-index: 1;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.menu-container{
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    margin-left: 552px;
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+}
+
+.nav-menu{
+    display: flex;
+    position: absolute;
+    width: 542px;
+    height: 19px;
+    left: 123px;
+    top: 22px;
+    justify-content: space-between;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* background-color: red; */
+}
+
+.nav-menu :hover .home-span{
+    display: block;
+    cursor: pointer;
+}
+
+.nav-menu :hover .destination-span{
+    display: block;
+}
+
+.nav-menu :hover .crew-span{
+    display: block;
+}
+
+.nav-menu :hover .technology-span{
+    display: block;
+}
+
+li {
+    list-style: none;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    display: block;
+}
+
+
+.home-span{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    left: 40px;
+    top: 55px;
+    background: white;
+    display: none;
+}
+
+.destination-span{
+    position: absolute;
+    width: 125px;
+    height: 3px;
+    left: 160px;
+    top: 55px;
+    background: white;
+    display: none;
+}
+.crew-span{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    left: 338px;
+    top: 55px;
+    background: white;
+    display: none;
+}
+
+.technology-span{
+    position: absolute;
+    width: 125px;
+    height: 3px;
+    left: 460px;
+    top: 55px;
+    background: white;
+    display: none;
+}
+
+.menu-item{
+    cursor: pointer;
+}
+
+/* main */
+
+.main{
+    display: flex;
+}
+
+.div-space{
+    width: 450px;
+    height: 382px;
+    margin-left: 165px;
+    margin-top: 251px;
+    /* background-color: red; */
+}
+
+.main h5{
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+    margin-top: 0px;
+    /* background-color: green; */
+}
+
+.main h1{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    margin-top: -20px;
+    /* background-color: yellow; */
+    margin-bottom: 24px;
+}
+
+.main p{
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 32px;
+    color: #D0D6F9;
+    /* background-color: blue; */
+}
+
+.explore-circle{
+    background-color: white;
+    width: 274px;
+    height: 274px;
+    margin-left: 386px;
+    margin-top: 359px;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.main h4{
+    padding-top: 45%;
+    font-family: 'Bellefair';
+    font-size: 32px;
+    font-style: normal;
+    
+    letter-spacing: 2px;
+    color: black;
+}
